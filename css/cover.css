@@ -1,0 +1,131 @@
+@font-face {
+    font-family: JEH; /*这里是说明调用来的字体名字*/
+    src: url(../fonts/Jellyka_Estrya_Handwriting.ttf); /*这里是字体文件路径*/
+}
+@font-face {
+    font-family: mytitle; /*这里是说明调用来的字体名字*/
+    src: url(../fonts/mytitle.ttf); /*这里是字体文件路径*/
+}
+html { overflow-x: hidden; overflow-y: hidden; }
+a,a:focus,a:hover {
+    color:#fff
+}
+.btn-default,.btn-default:hover,.btn-default:focus {
+    color:#333;
+    text-shadow:none;
+    background-color:#fff;
+    border:1px solid #fff
+}
+html,body {
+    height:100%;
+    background-image:url(http://imgchr.com/images/bga936c.jpg);
+    background-repeat:no-repeat;
+    background-size:auto
+}
+body {
+    color:#fff;
+    text-align:center;
+    text-shadow:0 1px 3px rgba(0,0,0,.5)
+}
+.site-wrapper {
+    display:table;
+    width:100%;
+    height:100%;
+    min-height:100%;
+    -webkit-box-shadow:inset 0 0 100px rgba(0,0,0,.5);
+    box-shadow:inset 0 0 100px rgba(0,0,0,.5)
+}
+.site-wrapper-inner {
+    display:table-cell;
+    vertical-align:top
+}
+.cover-container {
+    margin-right:auto;
+    margin-left:auto
+}
+.inner {
+    padding:30px
+}
+.masthead-brand {
+    margin-top:10px;
+    margin-bottom:10px;
+    color:#80ff00;
+    /*font-weight:bold;*/
+    FONT-SIZE:50px;
+    FONT-FAMILY:mytitle,'华文新魏','微软雅黑';
+}
+/*.masthead-nav>li {*/
+/*display:inline-block*/
+/*}*/
+.masthead-nav {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+.masthead-nav>li+li {
+    margin-left:20px
+}
+.masthead-nav>li>a {
+    padding-right:0;
+    padding-left:0;
+    font-family: JEH;
+    font-size:60px;
+    font-weight:bold;
+    color:#fff;
+    color:rgba(255,255,255,.75);
+    /*border-bottom:2px solid transparent*/
+}
+.masthead-nav>li>a:hover,.masthead-nav>li>a:focus {
+    color:#ffff00;
+    background-color:transparent;
+    border-bottom-color:#a9a9a9;
+    border-bottom-color:rgba(255,255,255,.25)
+}
+.masthead-nav>.active>a,.masthead-nav>.active>a:hover,.masthead-nav>.active>a:focus {
+    color:#fff;
+    border-bottom-color:#fff
+}
+
+@media(min-width:768px) {
+    .masthead-brand {
+        float:left
+    }
+    .masthead-nav {
+        float:left
+    }
+}.cover {
+     padding:0 20px
+ }
+.cover .btn-lg {
+    padding:10px 20px;
+    font-weight:bold
+}
+.mastfoot {
+    color:#999;
+    color:rgba(255,255,255,.5)
+}
+@media(min-width:768px) {
+    .masthead {
+        position:fixed;
+        top:0
+    }
+    .mastfoot {
+        position:fixed;
+        bottom:0
+    }
+    .site-wrapper-inner {
+        vertical-align:middle
+    }
+    .masthead,.mastfoot,.cover-container {
+        width:100%
+    }
+}@media(min-width:992px) {
+    .masthead,.mastfoot,.cover-container {
+        width:700px
+    }
+}* {
+     font-family:"Helvetica Neue",Helvetica,"Nimbus Sans L",Arial,"Liberation Sans","Hiragino Sans GB","Microsoft YaHei","Wenquanyi Micro Hei","WenQuanYi Zen Hei","ST Heiti",SimHei,"WenQuanYi Zen Hei Sharp",sans-serif
+ }
+* {
+    text-decoration:none!important
+}
